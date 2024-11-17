@@ -1,5 +1,5 @@
 body {
-	/*background-color: #FFDAB9;	*/
+	/*background-color: #b9e1ff;	*/
 	background-color: #000;
 	-webkit-transition:background-color linear 5s;
 	-moz-transition:background-color linear 5s;
@@ -12,7 +12,7 @@ body {
 	display: none;
 }
 .peach {
-	background-color: #FFDAB9;
+	background-color: #b9e1ff;
 	
 }
 .peach-after {
@@ -25,90 +25,90 @@ body {
 
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #b9e1ff;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #b5fff4;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #b9e1ff;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #b5fff4;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #b9e1ff;
 	}
 }
 @-moz-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #b9e1ff;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #b5fff4;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #b9e1ff;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #b5fff4;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #b9e1ff;
 	}
 }
 
 @-o-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #b9e1ff;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #b5fff4;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #b9e1ff;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #b5fff4;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #b9e1ff;
 	}
 }
 
 @-ms-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #b9e1ff;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #b5fff4;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #b9e1ff;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #b5fff4;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #b9e1ff;
 	}
 }
 
 @keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #b9e1ff;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #b5fff4;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #b9e1ff;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #b5fff4;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #b9e1ff;
 	}
 }
 
@@ -1290,21 +1290,25 @@ audio {
         color: #fff;
         background-color: #466baf;
 }
-    .btn-primary:hover,
-    .btn-primary:focus,
-    .btn-primary:active,
-    .btn-primary.active,
-    .open .dropdown-toggle.btn-primary {
-        border-color: #fff;
-        color: #fff;
-        background-color: #466baf;
-    }
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+		border-color: #fff;
+		color: #fff;
+		background-color: #466baf;
+}
 
 
 
-    /*controlling tablet width*/
-    /*@media only screen and (max-width: 720px){
-    	.container {
-    		-webkit-transform: scale(0.9);
-    	}
-    }*/
+/*controlling tablet width*/
+/*@media only screen and (max-width: 720px){
+	.container {
+		-webkit-transform: scale(0.9);
+	}
+}*/
+
+.bottom-custom {
+	bottom: 16px;
+}
